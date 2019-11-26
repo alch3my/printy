@@ -1,1 +1,0 @@
-# printy-mechanical-instructions
