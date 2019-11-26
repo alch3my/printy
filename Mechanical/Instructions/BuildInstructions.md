@@ -27,43 +27,43 @@ Printy is held together by T-slot joints. A bolt is inserted through one interfa
 ### Building the Crane
 The crane holds the print platform, all holes are symmetric for your convenience. The two holes are for attaching the endstop switch, use the holes on the __front-right__.
 
-![Figure C1](https://github.com/alch3my/printy/edit/master/Mechanical/Instructions/Images/C1.jpg)
+![Figure C1](https://github.com/alch3my/printy/raw/master/Mechanical/Instructions/Images/C1.jpg)
 
 Figure C1.
 
 Attach the front and back piece of the crane to the top of the crane with 4 M3 nuts and 4 M3x14 screws each. A total of 8 M3 nuts and 8 M3x14 screws will be used.
 
-![Figure C2](https://github.com/alch3my/printy/edit/master/Mechanical/Instructions/Images/C2.jpg)
+![Figure C2](https://github.com/alch3my/printy/raw/master/Mechanical/Instructions/Images/C2.jpg)
 
 Figure C2.
 
 Attach the NEMA17 motor to top of the crane with 4 M3x10 screws. Wires should come out on the __right__ side.
 
-![Figure C3](https://github.com/alch3my/printy/edit/master/Mechanical/Instructions/Images/C3.jpg)
+![Figure C3](https://github.com/alch3my/printy/raw/master/Mechanical/Instructions/Images/C3.jpg)
 
 Figure C3.
 
 Press in 8 M3 brass press-fit nuts into the crane from the __bottom__, 2 more from the __top__
 
-![Figure C4](https://github.com/alch3my/printy/edit/master/Mechanical/Instructions/Images/C4.jpg)
+![Figure C4](https://github.com/alch3my/printy/raw/master/Mechanical/Instructions/Images/C4.jpg)
 
 Figure C4.
 
 Insert the LMK8LUU bearings through top of the crane and attach with 4 M3x14 screws.
 
-![Figure C5](https://github.com/alch3my/printy/edit/master/Mechanical/Instructions/Images/C5.jpg)
+![Figure C5](https://github.com/alch3my/printy/raw/master/Mechanical/Instructions/Images/C5.jpg)
 
 Figure C5.
 
 Attach the endstop switch with 2 M3x16 screw and 2 M3 nuts. The wires should points towards the __right__ side.
 
-![Figure C6](https://github.com/alch3my/printy/edit/master/Mechanical/Instructions/Images/C6.jpg)
+![Figure C6](https://github.com/alch3my/printy/raw/master/Mechanical/Instructions/Images/C6.jpg)
 
 Figure C6.
 
 Enclose the motor and endstop wires in a sleeve, zip tie the ends
 
-![Figure C7](https://github.com/alch3my/printy/edit/master/Mechanical/Instructions/Images/C7.jpg)
+![Figure C7](https://github.com/alch3my/printy/raw/master/Mechanical/Instructions/Images/C7.jpg)
 
 Figure C7.
 
