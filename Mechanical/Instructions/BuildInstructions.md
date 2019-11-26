@@ -1,6 +1,6 @@
 # Printy Build Instructions
 
-![Alch3my Logo](https://github.com/alch3my/printy/raw/master/Mechanical/Instructions/Images/logo.jpg =200x)
+<img src="https://github.com/alch3my/printy/raw/master/Mechanical/Instructions/Images/logo.jpg" width="200" />
 
 [product photo]
 
@@ -77,7 +77,78 @@ Enclose the motor and endstop wires in a sleeve, zip tie the ends
 
 Figure C7. Wire Management
 
+### Building the Front Drawer
+The front drawer is designed to be easily removed. For your safety, there is a endstop switch halts the printer’s operation when either drawer is removed from the printer.
 
+Press in 2 M3 brass press-fit nuts into drawer support. 
+
+![Figure D1](https://github.com/alch3my/printy/raw/master/Mechanical/Instructions/Images/D1.jpg)
+
+Figure D1. Drawer Support
+
+Attach drawer support to the front piece with 2 M3x14 screws. Make sure the brass fit nut are on facing out and not sandwiched between the two pieces.
+
+![Figure D2](https://github.com/alch3my/printy/raw/master/Mechanical/Instructions/Images/D1.jpg)
+
+Figure D2. Install Drawer Support
+
+Attach the drawer bottom to front with 1 M3x14 screw and 1 M3 nut.
+
+![Figure D3](https://github.com/alch3my/printy/raw/master/Mechanical/Instructions/Images/D3.jpg)
+
+Figure D3. Drawer Bottom
+
+Attach the sides of the drawers with 2 M3x14 screws and 2 M3 nuts each. A total of 4 M3x14 screws and 4 M3 nuts will be used.
+
+![Figure D4](https://github.com/alch3my/printy/raw/master/Mechanical/Instructions/Images/D4.jpg)
+
+Figure D4. Drawer Sides
+
+Secure the endstop to drawer front with 2 M3x16 screws. The endstop body and not the PCB should be flush against the wood. Note the end stop switch location.
+
+![Figure D5](https://github.com/alch3my/printy/raw/master/Mechanical/Instructions/Images/D5.jpg)
+
+Figure D5. End Stop
+
+### Building the Back Drawer
+The back drawer differs slightly from the front. The back drawer holds all the electronics. The openings for the Arduino USB and power ports.
+
+![Figure D6](https://github.com/alch3my/printy/raw/master/Mechanical/Instructions/Images/D6.jpg)
+
+Figure D6. Back Drawer
+
+Use 1 M3x14 screw and 1 M3 nut to secure galvanometer driver in place.
+
+![Figure D7](https://github.com/alch3my/printy/raw/master/Mechanical/Instructions/Images/D7.jpg)
+
+Figure D7. Galvo Driver
+
+Install the stepper driver board onto Resin Shield. __Line up the EN pins__. Install the Resin Shield onto Arduino Mega and adhere the Arduino Mega to drawer with double sided foam tape. Stacking 2 layers of tape may be necessary depending on height of through hole components. Route end stop wire, galvo power cable, galvo signal cable. Finally, add 2 adhesive pads for future wire management.
+
+![Figure D8](https://github.com/alch3my/printy/raw/master/Mechanical/Instructions/Images/D8.jpg)
+
+Figure D8. Mounted Electronics
+
+### Building the Frame
+The frame holds everything together. Although most parts in this printer kit are built with symmetry in mind, some of the pieces of the frame are direction dependent. 
+
+There are two slots on the carrier, they are for the end stop switches on the drawers from the previous step. In the top view, the slots should be __front-left__ and __rear-right__. 
+
+![Figure F1](https://github.com/alch3my/printy/raw/master/Mechanical/Instructions/Images/F1.jpg)
+
+Figure F1. Top View
+
+Attach the 2 SHF8 (8mm linear rail holders) on to the carrier using 4 M5x20 screws and 4 M5 nuts. The flat on the SHF8 should point inside, it enables easier access to the clamping screws.
+
+![Figure F2](https://github.com/alch3my/printy/raw/master/Mechanical/Instructions/Images/F2.jpg)
+
+Figure F2. SHF8 Installed
+
+Attach the Z end stop's adjustment M3x50 screw by pressing a M3 brass press-fit nut from the bottom in the __front-right__ hole, thread a M3 nut onto the adjustment screw first, and then thread the screw onto the nut. The nut is used to secure the adjustment screw. 
+
+![Figure F3](https://github.com/alch3my/printy/raw/master/Mechanical/Instructions/Images/F3.jpg)
+
+Figure F3. Z End-Stop Adjustment Installed
 
 
 
