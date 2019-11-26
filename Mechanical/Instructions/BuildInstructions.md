@@ -1,6 +1,6 @@
 # Printy Build Instructions
 
-![Alch3my Logo](https://github.com/alch3my/printy/raw/master/Mechanical/Instructions/Images/logo.jpg)
+![Alch3my Logo](https://github.com/alch3my/printy/raw/master/Mechanical/Instructions/Images/logo.jpg =200x)
 
 [product photo]
 
