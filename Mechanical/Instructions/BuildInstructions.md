@@ -13,7 +13,7 @@ Purchase a complete kit. This takes all the work out of qualifying and sourcing.
 ### Option 2: Only the Essentials
 Do you have access to a laser cutter? Do you already have Arduino Mega, NEMA17 motor, stepper board, switches, etc from other projects? We will provide an essentials kit that includes Alch3my created hardware: the ResinShield and the aluminum sheet metal pieces.
 ### Option 3: From Scratch
-Are you a hard core maker? Do you like to make new and/or improved hardware? We will provide schematics, gerbers, firmware, CAD files and documentation at Alch3my.com so you can base your next design on ours.
+Are you a hard core maker? Do you like to make, improve, and redistribute hardware? We will provide schematics, gerbers, firmware, CAD files and documentation at Alch3my.com or our GitHub page so you can base your next design on ours. Please observe the license and give credit to Alch3my.
 
 ## Build Instructions
 ### Overview
@@ -150,6 +150,58 @@ Attach the Z end stop's adjustment M3x50 screw by pressing a M3 brass press-fit 
 
 Figure F3. Z End-Stop Adjustment Installed
 
+Install the two 8mm linear rails onto the SHF8 and install the crane into the rails. 
 
+![Figure F4](https://github.com/alch3my/printy/raw/master/Mechanical/Instructions/Images/F4.jpg)
+
+Figure F4. Carrier and Linear Rails Installed
+
+Slide the frame back piece onto the carrier, use it as a guide to set the linear rail's height. Note there is a raised laser holder feature on the __left__ side of the frame back piece. Tighten the SHF8 locking screws, this can be adjusted later to make everything flush.
+
+![Figure F5](https://github.com/alch3my/printy/raw/master/Mechanical/Instructions/Images/F5.jpg)
+
+Figure F5. Carrier and Linear Rails Installed
+
+Slide the frame front piece onto the carrier, make sure to orient the laser holder feature on the __left__ side. Now install 4 M3x14 screws and 4 M3 nuts to secure both frame pieces onto the carrier. Keep these screws slightly loose for now.
+
+![Figure F6](https://github.com/alch3my/printy/raw/master/Mechanical/Instructions/Images/F6.jpg)
+
+Figure F6. Frame Front and Back secured
+
+Place the 8mm to 5mm flex coupler onto the 8mm ACME screw, adjust until the 8mm ACME does not cover any of the spring portion of the flex coupler (approximately 8mm of insertion depth). Tighten the 2 set screws on the flex coupler to secure. Install the assembly onto the frame top piece with 4 M3x14 and 4 M3 nuts.
+
+![Figure F7](https://github.com/alch3my/printy/raw/master/Mechanical/Instructions/Images/F7.jpg)
+
+Figure F7. Frame Top and ACME Assembly
+
+Place frame top onto the main frame assembly. Install frame sides as well. Tighten the previously loose 4 frame screws.
+
+![Figure F8](https://github.com/alch3my/printy/raw/master/Mechanical/Instructions/Images/F8.jpg)
+
+Figure F8. Frame Held Together
+
+Install 10 M3x14 screws and 10 M3 nuts to secure frame top. Adjust 8mm rails if necessary to make them flush at the top.
+
+![Figure F9](https://github.com/alch3my/printy/raw/master/Mechanical/Instructions/Images/F9.jpg)
+
+Figure F9. Frame Top
+
+Install 8 M3x14 screws and 8 M3 nuts to secure the frame sides.
+
+![Figure F10](https://github.com/alch3my/printy/raw/master/Mechanical/Instructions/Images/F10.jpg)
+
+Figure F10. Frame Sides
+
+Install 10 M3x14 screws and 10 M3 nuts to secrure the frame bottom. Note the frame bottom has a slot, it goes towards the __back__.
+
+![Figure F11](https://github.com/alch3my/printy/raw/master/Mechanical/Instructions/Images/F11.jpg)
+
+Figure F11. Frame Bottom
+
+Secure the NEMA17 stepper motor's shaft onto the M5 to M8 flex coupler, use about 8mm of overlap. Make sure to put one set screw on the D portion of the shaft. 
+
+![Figure F12](https://github.com/alch3my/printy/raw/master/Mechanical/Instructions/Images/F12.jpg)
+
+Figure F12. Flex Coupler
 
 
