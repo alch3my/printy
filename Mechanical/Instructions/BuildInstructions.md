@@ -19,9 +19,11 @@ Are you a hard core maker? Do you like to make, improve, and redistribute hardwa
 ### Overview
 The Printy kit contains many laser cut pieces. Pay close attention to the orientation of pieces, since some of the pieces only fit together in the orientations described. All orientation directions assumes the printer is facing you. The __front__ is the side closest to you.; __left__ is on your left hand side, etc.
 #### Setup
-Begin by spreading all the pieces out for easy identification and to ensure you have all the necessary pieces. Please refer to the bill of materials (BOM).
+Begin by spreading all the pieces out for easy identification and to ensure you have all the necessary pieces. Please refer to the Bill of Materials (BOM).
+#### Spares
+Ample spare screws and nuts are shipped with the kit. If more are needed, refer to the BOM for hardware specifications.
 #### Peel
-Peel the protective tape from all pieces except for clear reservoir bottom. We do this to keep the reservoir protected as we build Printy. Note: the clear film on the reservoir has a pre-applied FEP sheet. 
+Peel the protective tape from all laser cut pieces.
 
 ![Figure G1](https://github.com/alch3my/printy/raw/master/Mechanical/Instructions/Images/G1.jpg)
 
