@@ -224,7 +224,6 @@ Figure 15. Galvanometers
 
 Install the laser holder onto the frame using 2 M3x14 screws and 2 M3 nuts, then the galvo onto the frame using 2 M3x14 screws. Tidy up the wires using the provided wiring channels.
 
-
 ![Figure F16](https://github.com/alch3my/printy/raw/master/Mechanical/Instructions/Images/F16.jpg)
 
 Figure 16. Galvanometers and Laser
