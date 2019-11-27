@@ -1,6 +1,6 @@
 # Printy Build Instructions
 
-<img src="https://github.com/alch3my/printy/raw/master/Mechanical/Instructions/Images/logo.jpg" width="200" />
+<img src="https://github.com/alch3my/printy/raw/master/Mechanical/Instructions/Images/logo.jpg" width="400" />
 
 [product photo]
 
@@ -203,5 +203,40 @@ Secure the NEMA17 stepper motor's shaft onto the M5 to M8 flex coupler, use abou
 ![Figure F12](https://github.com/alch3my/printy/raw/master/Mechanical/Instructions/Images/F12.jpg)
 
 Figure F12. Flex Coupler
+
+Install both frame feet with 4 M3x14 and 4 M3 nuts. Also press in 4 M3 brass press-fit nuts onto the feet, the flange should be on the __inside__.
+
+![Figure F13](https://github.com/alch3my/printy/raw/master/Mechanical/Instructions/Images/F13.jpg)
+
+Figure 13. Feet
+
+Install laser onto the laser holder piece with 4 M3x14 screws. Note the laser is pointing at the wider side of this piece.
+
+![Figure F14](https://github.com/alch3my/printy/raw/master/Mechanical/Instructions/Images/F14.jpg)
+
+Figure 14. Laser Holder
+
+Press 2 M3 brass press fit nuts onto the galvo holder, then install the galvo using 3 M4x10 screws. Do your best to keep the galvanometer parallel to this piece. This sets the initial X and Y offset of the printer, we will calibrate this later. __Be careful with the mirrors.__
+
+![Figure F15](https://github.com/alch3my/printy/raw/master/Mechanical/Instructions/Images/F15.jpg)
+
+Figure 15. Galvanometers
+
+Install the laser holder onto the frame using 2 M3x14 screws and 2 M3 nuts, then the galvo onto the frame using 2 M3x14 screws. Tidy up the wires using the provided wiring channels.
+
+
+![Figure F16](https://github.com/alch3my/printy/raw/master/Mechanical/Instructions/Images/F16.jpg)
+
+Figure 16. Galvanometers and Laser
+
+
+
+
+
+
+
+
+
+
 
 
