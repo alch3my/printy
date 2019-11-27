@@ -115,7 +115,7 @@ The back drawer differs slightly from the front. The back drawer holds all the e
 
 ![Figure D6](https://github.com/alch3my/printy/raw/master/Mechanical/Instructions/Images/D6.jpg)
 
-Figure D6. Back Drawer
+Figure D6. Back Drawer __Check the wire colors before publishing__
 
 Use 1 M3x14 screw and 1 M3 nut to secure galvanometer driver in place.
 
