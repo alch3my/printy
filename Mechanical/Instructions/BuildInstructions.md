@@ -238,15 +238,14 @@ Install the orange acrylic accent pieces onto the crane using 2x M3x10.
 
 Figure 17. Accent Piece
 
-Install 2 M5 standoffs and 2 M5 nuts on the carrier. Next use clear tape to hold down the removable clear print plate onto the carrier. This print plate also gives additional tension to the FEP film (future steps). 
+Install 2 M5 standoffs and 2 M5 nuts on the carrier. Next use clear tape to hold down the removable clear print plate onto the carrier. Note the print plate is not square, please make sure the wider side goes over the left and right edge of the hole in the carrier. This print plate also gives additional tension to the FEP film (future steps). 
 
 <img src="https://github.com/alch3my/printy/raw/master/Mechanical/Instructions/Images/F18.jpg" width="400" />
 
 Figure 18. Standoffs and print plate
 
 ### The Build Platform
-Sand the bottom of the build platform with rough sandpaper for better print adhesion.
-Use 4 M5x20 screws to install the build platform on the crane. For future removal, simply loosen the 4 screws and pull the print and build platform away from the crane.
+Sand the bottom of the build platform with rough sandpaper for better print adhesion. All the holes on the sides are for drainage since the build platform is partially submerged in resin at the beginning of the print. Use 4 M5x20 screws to install the build platform on the crane. For future removal, simply loosen the 4 screws and pull the print and build platform away from the crane.
 
 <img src="https://github.com/alch3my/printy/raw/master/Mechanical/Instructions/Images/P1.jpg" width="400" />
 
@@ -264,7 +263,7 @@ This step is crucial for the quality of print, make sure to proceed slowly and e
 
 Figure R1. Completed Reservoir
 
-Install the reservoir onto the frame using 2 M5x20 screws.
+Install the reservoir onto the frame using 2 M5x20 screws. The slightly thick print plate provides additional tension to the FEP film, make sure there are no bubbles or gaps between the FEP film and the print plate.
 
 <img src="https://github.com/alch3my/printy/raw/master/Mechanical/Instructions/Images/R2.jpg" width="400" />
 
