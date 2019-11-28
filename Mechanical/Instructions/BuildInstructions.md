@@ -286,7 +286,7 @@ Use zip ties, anchors, and tape to neatly arrange the wires.
 
 ### Finishing Touches
 
-Install the drawers onto the frame and secure using 4 M3x16 screws.
+Install the drawers onto the frame and secure using 4 M3x14 screws.
 
 ![Figure F19](https://github.com/alch3my/printy/raw/master/Mechanical/Instructions/Images/F19.jpg)
 
@@ -298,11 +298,11 @@ Install the side accent windows and secure with clear tape.
 
 Figure 20. Windows
 
-Slot in the front and back doors. Make sure it engages the safety switches properly. With proper installation, if a user removes either door or drawers mid print, the print will halt and the laser will be immediately extinguished.
+Slot in the front and back doors. Make sure it engages the safety switches with a satisfying click. With proper installation, if a user removes either door or drawers mid print, the print will halt and the laser will be immediately extinguished.
 
 ![Figure F21](https://github.com/alch3my/printy/raw/master/Mechanical/Instructions/Images/F21.jpg)
 
-Figure 21. Door
+Figure 21. Fully Built
 
 
 
