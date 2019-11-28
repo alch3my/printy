@@ -20,6 +20,8 @@ Are you a hard core maker? Do you like to make, improve, and redistribute hardwa
 The Printy kit contains many laser cut pieces. Pay close attention to the orientation of pieces, since some of the pieces only fit together in the orientations described. All orientation directions assumes the printer is facing you. The __front__ is the side closest to you.; __left__ is on your left hand side, etc.
 #### Setup
 Begin by spreading all the pieces out for easy identification and to ensure you have all the necessary pieces. Please refer to the Bill of Materials (BOM).
+#### Tools Needed
+Metric Allen wrenchs including 2mm, 2.5mm, 3mm. A small wrench. Clear tape. Rough sand paper (20-40 grit).
 #### Spares
 Ample spare screws and nuts are shipped with the kit. If more are needed, refer to the BOM for hardware specifications.
 #### Peel
@@ -230,11 +232,77 @@ Install the laser holder onto the frame using 2 M3x14 screws and 2 M3 nuts, then
 
 Figure 16. Galvanometers and Laser
 
+Install the orange acrylic accent pieces onto the crane using 2x M3x10.
 
+![Figure F17](https://github.com/alch3my/printy/raw/master/Mechanical/Instructions/Images/F17.jpg)
 
+Figure 17. Accent Piece
 
+Install 2 M5 standoffs and 2 M5 nuts on the carrier. Next use clear tape to hold down the removable clear print plate onto the carrier. This print plate also gives additional tension to the FEP film (future steps). 
 
+![Figure F18](https://github.com/alch3my/printy/raw/master/Mechanical/Instructions/Images/F18.jpg)
 
+Figure 18. Standoffs and print plate
+
+### The Build Platform
+Sand the bottom of the build platform with rough sandpaper for better print adhesion.
+Use 4 M5x20 screws to install the build platform on the crane. For future removal, simply loosen the 4 screws and pull the print and build platform away from the crane.
+
+![Figure P1](https://github.com/alch3my/printy/raw/master/Mechanical/Instructions/Images/R1.jpg)
+
+Figure P1. Build Platform
+
+### Reusable Resin Reservoir
+This step is crucial for the quality of print, make sure to proceed slowly and ensure a water-tight finish in the end.
+
+1. Place a ring of double sided adhesive (provided) as high as possible along the vertical reservoir exterior wall.
+2. Remove FEP film from backing. FEP is clear and slightly stretchy, the backing is made of PTFE and is not stretchy.
+3. Place the aluminum resin reservoir on top of the FEP film and fold the FEP around the resevoir. Make sure the FEP film is tightly stretched and well adhered to the double sided tape.
+4. Cover the FEP's vertical surface with single sided tape (provided).
+
+![Figure R1](https://github.com/alch3my/printy/raw/master/Mechanical/Instructions/Images/R1.jpg)
+
+Figure R1. Completed Reservoir
+
+Install the reservoir onto the frame using 2 M5x20 screws.
+
+![Figure R2](https://github.com/alch3my/printy/raw/master/Mechanical/Instructions/Images/R1.jpg)
+
+Figure R2. Installed Reservoir
+
+The reservoir can be removed easily for cleaning. If worn out, the FEP can be replaced by repeating the above steps.
+
+### Electrical Hookup Diagram
+Connect all the electrical cables. Pay special attention to the following:
+1. Switches: Signal (S) is green, Ground (-) is black, 5V (+) is red. Z end stop switch connects to the ZMIN port. The other door switches connect to the SAFE ports.
+2. NEMA17 stepper motor: they come with 4 wires of various colors depending on manufacturer, if you later find the Z directions are reversed, just flip this connector backwards.
+3. The laser module: the fan and laser power use identical connectors. The fan cable is longer and thinner.
+
+![Figure E1](https://github.com/alch3my/printy/raw/master/Mechanical/Instructions/Images/E1.jpg)
+
+Figure E1. Electrical Hookup Diagram
+
+Use zip ties, anchors, and tape to neatly arrange the wires.
+
+### Finishing Touches
+
+Install the drawers onto the frame and secure using 4 M3x16 screws.
+
+![Figure F19](https://github.com/alch3my/printy/raw/master/Mechanical/Instructions/Images/F19.jpg)
+
+Figure 19. Installed Drawers
+
+Install the side accent windows and secure with clear tape.
+
+![Figure F20](https://github.com/alch3my/printy/raw/master/Mechanical/Instructions/Images/F20.jpg)
+
+Figure 20. Windows
+
+Slot in the front and back doors. Make sure it engages the safety switches properly. With proper installation, if a user removes either door or drawers mid print, the print will halt and the laser will be immediately extinguished.
+
+![Figure F21](https://github.com/alch3my/printy/raw/master/Mechanical/Instructions/Images/F21.jpg)
+
+Figure 21. Door
 
 
 
