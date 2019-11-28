@@ -11,7 +11,7 @@ Alch3my is an open-source initiative for making the latest 3D printing technolog
 ### Option 1: Everything from Alch3my
 Purchase a complete kit. This takes all the work out of qualifying and sourcing. This option is perfect for a weekend project.
 ### Option 2: Only the Essentials
-Do you have access to a laser cutter? Do you already have Arduino Mega, NEMA17 motor, stepper board, switches, etc from other projects? We will provide an essentials kit that includes Alch3my created hardware: the ResinShield and the aluminum sheet metal pieces.
+Do you have access to a laser cutter? Do you already have Arduino Mega, NEMA17 motor, stepper board, switches, etc from other projects? We will provide an essentials kit that includes Alch3my created hardware: the ResinShield and the aluminum sheet metal pieces. Download bill of materials and all the laser cutting DXF files from our website or GitHub account.
 ### Option 3: From Scratch
 Are you a hard core maker? Do you like to make, improve, and redistribute hardware? We will provide schematics, gerbers, firmware, CAD files and documentation at Alch3my.com or our GitHub page so you can base your next design on ours. Please observe the license and give credit to Alch3my.
 
