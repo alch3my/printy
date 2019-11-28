@@ -304,8 +304,9 @@ Slot in the front and back doors. Make sure it engages the safety switches with 
 
 Figure 21. Fully Built
 
-Published by Alch3my LLC 
-CERN OHL v1.2 license whenever applicable.
+### Published by Alch3my LLC 
+
+### CERN OHL v1.2 license whenever applicable.
 
 
 
