@@ -119,7 +119,7 @@ The back drawer differs slightly from the front. The back drawer holds all the e
 
 ![Figure D6](https://github.com/alch3my/printy/raw/master/Mechanical/Instructions/Images/D6.jpg)
 
-Figure D6. Back Drawer __Check the wire colors before publishing__
+Figure D6. Back Drawer
 
 Use 1 M3x14 screw and 1 M3 nut to secure galvanometer driver in place.
 
@@ -127,7 +127,7 @@ Use 1 M3x14 screw and 1 M3 nut to secure galvanometer driver in place.
 
 Figure D7. Galvo Driver
 
-Install the stepper driver board onto Resin Shield. __Line up the EN pins__. Install the Resin Shield onto Arduino Mega and adhere the Arduino Mega to drawer with double sided foam tape. Stacking 2 layers of tape may be necessary depending on height of through hole components. Route end stop wire, galvo power cable, galvo signal cable. Finally, add 2 adhesive pads for future wire management.
+Install the stepper driver board onto Resin Shield. __Line up the EN pins__. Install the Resin Shield onto Arduino Mega and adhere the Arduino Mega to drawer with double sided foam tape. Stacking 2 layers of tape may be necessary depending on height of through hole components. Routing end stop wire, galvo power cable, galvo signal cables. Finally, add 2 adhesive pads for future wire management. A full wiring diagram can be found in a later section.
 
 ![Figure D8](https://github.com/alch3my/printy/raw/master/Mechanical/Instructions/Images/D8.jpg)
 
@@ -304,7 +304,8 @@ Slot in the front and back doors. Make sure it engages the safety switches with 
 
 Figure 21. Fully Built
 
-
+Published by Alch3my LLC 
+CERN OHL v1.2 license whenever applicable.
 
 
 
