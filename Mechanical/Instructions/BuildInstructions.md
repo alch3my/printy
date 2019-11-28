@@ -2,7 +2,7 @@
 
 <img src="https://github.com/alch3my/printy/raw/master/Mechanical/Instructions/Images/logo.jpg" width="400" />
 
-[product photo]
+<img src="https://github.com/alch3my/printy/raw/master/Mechanical/Instructions/Images/F21.jpg" width="400" />
 
 ## Description
 Alch3my is an open-source initiative for making the latest 3D printing technology accessible to everyone. Printy is an open-source SLA printer. We aim to democratize SLA technology with this fun and easy to build kit. Assembly takes 4 hours.
