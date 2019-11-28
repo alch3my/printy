@@ -275,8 +275,9 @@ The reservoir can be removed easily for cleaning. If worn out, the FEP can be re
 ### Electrical Hookup Diagram
 Connect all the electrical cables. Pay special attention to the following:
 1. Switches: Signal (S) is green, Ground (-) is black, 5V (+) is red. Z end stop switch connects to the ZMIN port. The other door switches connect to the SAFE ports.
-2. NEMA17 stepper motor: they come with 4 wires of various colors depending on manufacturer, if you later find the Z directions are reversed, just flip this connector backwards.
+2. NEMA17 stepper motor: they come with 4 wires of various colors depending on manufacturer, if you later find the Z direction is reversed, just flip this connection backwards.
 3. The laser module: the fan and laser power use identical connectors. The fan cable is longer and thinner.
+4. The galvos: x-axis is the galvo installed vertically, it's responsible for the laser going left and right. Y-axis is the galvo installed horizontally, it's responsible for the laser going back and forth.
 
 ![Figure E1](https://github.com/alch3my/printy/raw/master/Mechanical/Instructions/Images/E1.jpg)
 
