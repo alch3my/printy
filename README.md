@@ -18,6 +18,12 @@ Do you have access to a laser cutter? Do you already have Arduino Mega, NEMA17 m
 ### Option 3: From Scratch
 Are you a hard core maker? Do you like to make, improve, and redistribute hardware? We will provide schematics, gerbers, firmware, CAD files and documentation at Alch3my.com or our GitHub page so you can base your next design on ours. Please observe the license and give credit to Alch3my.
 
+[Build Instructions]: https://github.com/alch3my/printy/raw/master/Mechanical/Instructions/BuildInstructions.md
+
+[Software Installation]: http://www.reddit.com
+
+[Calibration]: http://www.reddit.com
+
 Plans published by Alch3my LLC.
 
 CERN OHL v1.2 license whenever appliable.
