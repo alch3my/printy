@@ -27,14 +27,14 @@ Ample spare screws and nuts are shipped with the kit. If more are needed, refer 
 #### Peel
 Peel the protective tape from all laser cut pieces.
 
-![Figure G1](https://github.com/alch3my/printy/raw/master/Mechanical/Instructions/Images/G1.jpg)
+<img src="https://github.com/alch3my/printy/raw/master/Mechanical/Instructions/Images/G1.jpg" width="400" />
 
 Figure G1. Peel the Protective Tape
 
 #### T-Slot Joints
 Printy is held together by T-slot joints. A bolt is inserted through one interface and a nut is inserted into a slot on the receiving end. __Do not overtighten!__
 
-![Figure G2](https://github.com/alch3my/printy/raw/master/Mechanical/Instructions/Images/G2.jpg)
+<img src="https://github.com/alch3my/printy/raw/master/Mechanical/Instructions/Images/G2.jpg" width="400" />
 
 Figure G2. Proper Installation for T-Slot Joint
 
