@@ -50,6 +50,8 @@ Use the following settings in "Printer Settings" to setup Printy.
 <img src="https://github.com/alch3my/printy/raw/master/Software/Instructions/Images/R6.jpg" width="400" />
 Figures R1-6. Printer Settings
 
+Note the "Port Number" should be the one your computer assign to the connected Arduino Mega or equivalent microcontroller.
+
 ### Slic3r Settings
 
 Slic3r is a slicing tool typically used in FDM printers. Printy mimics the operation of an FDM by steering a laser beam across the print surface. Use the following settings to setup Slic3r. These settings will need to be tweaked for specific resins. Maker Juice G+ was extensively tested with these settings.
@@ -76,30 +78,49 @@ Figures S9-11. Slic3r Filament Setting
 Figures S12-14. Slic3r Printer Setting
 
 
-Use the following starting code in "Slic3r Printer Setting":
+Use the following "Start G-Code" in "Slic3r Printer Setting":
+
+~~~~
 G28 ; home all axes
 G91 ; relative position
 M155 S10 ; report temp every 10 seconds
-;G1 F300
-;G1 Z4.2 F300
-;G1 Z-4 F300
-;G1 Z4 F300
-;G1 Z-4 F300
-;G1 Z4 F300
-;G1 Z-4 F300
-;G1 Z4 F300
-;G1 Z-4 F300
-;G1 Z4 F300
-;G1 Z-4.1 F300
-;G1 Z10 F300
-;G1 Z-10 F20
-;G90 ; absolute position
-;G4 P1000 ; dwell in milliseconds
+G1 F300
+G1 Z4.2 F300
+G1 Z-4 F300
+G1 Z4 F300
+G1 Z-4 F300
+G1 Z4 F300
+G1 Z-4 F300
+G1 Z4 F300
+G1 Z-4 F300
+G1 Z4 F300
+G1 Z-4.1 F300
+G1 Z10 F300
+G1 Z-10 F20
+G90 ; absolute position
+G4 P1000 ; dwell in milliseconds
 ; end initial lift code
+~~~~
 
 
+Use the following "End G-Code":
+~~~~
+M104 S0 ; turn off temperature
+M84     ; disable motors
+~~~~
+
+Use the following "Before Layer Change G-Code":
+~~~~
+; start lift code between layers
+G91 ; relative position
+G1 Z5 ; layer lift code
+G4 P100 ; dwell in milliseconds
+G1 Z-5
+G90 ; absolute position
+; end lift code between layers
+~~~~
 
 
+### Published by Alch3my LLC 
 
-
-
+### CERN OHL v1.2 license whenever applicable.
