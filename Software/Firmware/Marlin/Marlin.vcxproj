@@ -1,0 +1,1288 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{C5F80730-F44F-4478-BDAE-6634EFC2CA88}</ProjectGuid>
+    <RootNamespace>
+    </RootNamespace>
+    <ProjectName>Marlin</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>
+    </PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>
+    </PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>
+    </PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>
+    </PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>$(ProjectDir)..\Marlin;$(ProjectDir)..\..\..\..\..\..\..\Program Files (x86)\Arduino\hardware\arduino\avr\libraries\SPI\src;$(ProjectDir)..\..\..\..\..\..\..\Program Files (x86)\Arduino\hardware\arduino\avr\cores\arduino;$(ProjectDir)..\..\..\..\..\..\..\Program Files (x86)\Arduino\hardware\arduino\avr\variants\mega;$(ProjectDir)..\..\..\..\..\..\..\Program Files (x86)\Arduino\hardware\tools\avr\avr\include;$(ProjectDir)..\..\..\..\..\..\..\Program Files (x86)\Arduino\hardware\tools\avr\avr\include\avr;$(ProjectDir)..\..\..\..\..\..\..\Program Files (x86)\Arduino\hardware\tools\avr\lib\gcc\avr\4.8.1\include;$(ProjectDir)..\..\..\..\..\..\..\Program Files (x86)\Arduino\hardware\tools\avr\lib\gcc\avr\4.9.2\include;$(ProjectDir)..\..\..\..\..\..\..\Program Files (x86)\Arduino\hardware\tools\avr\lib\gcc\avr\4.9.3\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>$(ProjectDir)__vm\.Marlin.vsarduino.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PreprocessorDefinitions>__AVR_atmega2560__;__AVR_ATmega2560__;F_CPU=16000000L;ARDUINO=10805;ARDUINO_AVR_MEGA2560;ARDUINO_ARCH_AVR;__cplusplus=201103L;_VMICRO_INTELLISENSE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>$(ProjectDir)..\Marlin;$(ProjectDir)..\..\..\..\..\..\..\Program Files (x86)\Arduino\hardware\arduino\avr\libraries\SPI\src;$(ProjectDir)..\..\..\..\..\..\..\Program Files (x86)\Arduino\hardware\arduino\avr\cores\arduino;$(ProjectDir)..\..\..\..\..\..\..\Program Files (x86)\Arduino\hardware\arduino\avr\variants\mega;$(ProjectDir)..\..\..\..\..\..\..\Program Files (x86)\Arduino\hardware\tools\avr\avr\include;$(ProjectDir)..\..\..\..\..\..\..\Program Files (x86)\Arduino\hardware\tools\avr\avr\include\avr;$(ProjectDir)..\..\..\..\..\..\..\Program Files (x86)\Arduino\hardware\tools\avr\lib\gcc\avr\4.8.1\include;$(ProjectDir)..\..\..\..\..\..\..\Program Files (x86)\Arduino\hardware\tools\avr\lib\gcc\avr\4.9.2\include;$(ProjectDir)..\..\..\..\..\..\..\Program Files (x86)\Arduino\hardware\tools\avr\lib\gcc\avr\4.9.3\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>$(ProjectDir)__vm\.Marlin.vsarduino.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <IgnoreStandardIncludePath>true</IgnoreStandardIncludePath>
+      <PreprocessorDefinitions>__AVR_atmega2560__;__AVR_ATmega2560__;F_CPU=16000000L;ARDUINO=10805;ARDUINO_AVR_MEGA2560;ARDUINO_ARCH_AVR;__cplusplus=201103L;_VMICRO_INTELLISENSE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ProjectCapability Include="VisualMicro" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Marlin.ino">
+      <FileType>CppCode</FileType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="bitmap_flags.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="blinkm.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="boards.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="buzzer.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="cardreader.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="circularqueue.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="Conditionals.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="Conditionals_LCD.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="Conditionals_post.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="Configuration.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="Configuration_adv.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="configuration_store.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="dac_mcp4728.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="delay.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="dogm_bitmaps.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="dogm_font_data_6x9_marlin.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="dogm_font_data_HD44780_C.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="dogm_font_data_HD44780_J.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="dogm_font_data_HD44780_W.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="dogm_font_data_ISO10646_1.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="dogm_font_data_ISO10646_1_PL.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="dogm_font_data_ISO10646_1_tr.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="dogm_font_data_ISO10646_5_Cyrillic.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="dogm_font_data_ISO10646_CN.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="dogm_font_data_ISO10646_CZ.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="dogm_font_data_ISO10646_Greek.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="dogm_font_data_ISO10646_Kana.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="dogm_font_data_ISO10646_SK.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="dogm_font_data_Marlin_symbols.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="drivers.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="duration_t.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="emergency_parser.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="endstops.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="endstop_interrupts.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="enum.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="example_configurations\adafruit\ST7565\Configuration.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="example_configurations\AlephObjects\TAZ4\Configuration.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="example_configurations\AlephObjects\TAZ4\Configuration_adv.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="example_configurations\AliExpress\CL-260\Configuration.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="example_configurations\Anet\A6\Configuration.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="example_configurations\Anet\A6\Configuration_adv.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="example_configurations\Anet\A8\Configuration.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="example_configurations\Anet\A8\Configuration_adv.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="example_configurations\BIBO\TouchX\Cyclops\Configuration.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="example_configurations\BIBO\TouchX\Cyclops\Configuration_adv.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="example_configurations\BIBO\TouchX\default\Configuration.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="example_configurations\BIBO\TouchX\default\Configuration_adv.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="example_configurations\BQ\Hephestos\Configuration.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="example_configurations\BQ\Hephestos\Configuration_adv.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="example_configurations\BQ\Hephestos_2\Configuration.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="example_configurations\BQ\Hephestos_2\Configuration_adv.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="example_configurations\BQ\Hephestos_2\_Bootscreen.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="example_configurations\BQ\WITBOX\Configuration.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="example_configurations\BQ\WITBOX\Configuration_adv.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="example_configurations\Cartesio\Configuration.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="example_configurations\Cartesio\Configuration_adv.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="example_configurations\Cartesio\_Bootscreen.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="example_configurations\Creality\CR-10mini\Configuration.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="example_configurations\Creality\CR-10mini\Configuration_adv.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="example_configurations\Creality\CR-10mini\_Bootscreen.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="example_configurations\Creality\CR-10mini\_Statusscreen.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="example_configurations\Creality\CR-10S\Configuration.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="example_configurations\Creality\CR-10S\Configuration_adv.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="example_configurations\Creality\CR-10S\_Bootscreen.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="example_configurations\Creality\CR-10S\_Statusscreen.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="example_configurations\Creality\CR-10\Configuration.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="example_configurations\Creality\CR-10\Configuration_adv.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="example_configurations\Creality\CR-10\_Bootscreen.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="example_configurations\Creality\CR-10\_Statusscreen.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="example_configurations\Creality\CR-8\Configuration.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="example_configurations\Creality\CR-8\Configuration_adv.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="example_configurations\Creality\Ender-2\Configuration.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="example_configurations\Creality\Ender-2\Configuration_adv.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="example_configurations\Creality\Ender-2\_Bootscreen.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="example_configurations\Creality\Ender-2\_Statusscreen.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="example_configurations\Creality\Ender-3\Configuration.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="example_configurations\Creality\Ender-3\Configuration_adv.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="example_configurations\Creality\Ender-3\_Bootscreen.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="example_configurations\Creality\Ender-3\_Statusscreen.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="example_configurations\Creality\Ender-4\Configuration.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="example_configurations\Creality\Ender-4\Configuration_adv.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="example_configurations\delta\FLSUN\auto_calibrate\Configuration.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="example_configurations\delta\FLSUN\auto_calibrate\Configuration_adv.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="example_configurations\delta\FLSUN\kossel\Configuration.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="example_configurations\delta\FLSUN\kossel\Configuration_adv.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="example_configurations\delta\FLSUN\kossel_mini\Configuration.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="example_configurations\delta\FLSUN\kossel_mini\Configuration_adv.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="example_configurations\delta\generic\Configuration.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="example_configurations\delta\generic\Configuration_adv.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="example_configurations\delta\Hatchbox_Alpha\Configuration.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="example_configurations\delta\kossel_mini\Configuration.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="example_configurations\delta\kossel_mini\Configuration_adv.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="example_configurations\delta\kossel_pro\Configuration.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="example_configurations\delta\kossel_pro\Configuration_adv.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="example_configurations\delta\kossel_xl\Configuration.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="example_configurations\delta\kossel_xl\Configuration_adv.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="example_configurations\Felix\Configuration.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="example_configurations\Felix\Configuration_adv.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="example_configurations\Felix\DUAL\Configuration.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="example_configurations\FolgerTech\i3-2020\Configuration.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="example_configurations\FolgerTech\i3-2020\Configuration_adv.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="example_configurations\gCreate\gMax1.5+\Configuration.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="example_configurations\gCreate\gMax1.5+\Configuration_adv.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="example_configurations\gCreate\gMax1.5+\_Bootscreen.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="example_configurations\Geeetech\GT2560\Configuration.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="example_configurations\Geeetech\I3_Pro_X-GT2560\Configuration.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="example_configurations\Geeetech\Prusa i3 Pro B\bltouch\Configuration.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="example_configurations\Geeetech\Prusa i3 Pro B\noprobe\Configuration.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="example_configurations\Geeetech\Prusa i3 Pro C\Configuration.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="example_configurations\Geeetech\Prusa i3 Pro C\Configuration_adv.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="example_configurations\Geeetech\Prusa i3 Pro W\Configuration.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="example_configurations\Geeetech\Prusa i3 Pro W\Configuration_adv.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="example_configurations\Infitary\i3-M508\Configuration.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="example_configurations\Infitary\i3-M508\Configuration_adv.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="example_configurations\JGAurora\A5\Configuration.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="example_configurations\JGAurora\A5\Configuration_adv.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="example_configurations\makibox\Configuration.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="example_configurations\makibox\Configuration_adv.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="example_configurations\Malyan\M150\Configuration.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="example_configurations\Malyan\M150\Configuration_adv.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="example_configurations\Malyan\M150\_Bootscreen.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="example_configurations\Micromake\C1\basic\Configuration.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="example_configurations\Micromake\C1\enhanced\Configuration.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="example_configurations\Micromake\C1\enhanced\Configuration_adv.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="example_configurations\RepRapPro\Huxley\Configuration.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="example_configurations\RepRapWorld\Megatronics\Configuration.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="example_configurations\RigidBot\Configuration.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="example_configurations\RigidBot\Configuration_adv.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="example_configurations\Sanguinololu\Configuration.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="example_configurations\Sanguinololu\Configuration_adv.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="example_configurations\SCARA\Configuration.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="example_configurations\SCARA\Configuration_adv.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="example_configurations\TinyBoy2\Configuration.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="example_configurations\TinyBoy2\Configuration_adv.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="example_configurations\Tronxy\X1\Configuration.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="example_configurations\Tronxy\X3A\Configuration.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="example_configurations\Tronxy\X3A\Configuration_adv.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="example_configurations\Tronxy\X5S\Configuration.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="example_configurations\Tronxy\XY100\Configuration.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="example_configurations\tvrrug\Round2\Configuration.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="example_configurations\tvrrug\Round2\Configuration_adv.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="example_configurations\Velleman\K8200\Configuration.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="example_configurations\Velleman\K8200\Configuration_adv.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="example_configurations\Velleman\K8400\Configuration.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="example_configurations\Velleman\K8400\Configuration_adv.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="example_configurations\Velleman\K8400\Dual-head\Configuration.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="example_configurations\Wanhao\Duplicator 6\Configuration.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="example_configurations\Wanhao\Duplicator 6\Configuration_adv.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="example_configurations\wt150\Configuration.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="example_configurations\wt150\Configuration_adv.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="fastio.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="fastio_1280.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="fastio_1281.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="fastio_168.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="fastio_644.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="fastio_AT90USB.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="fwretract.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="HAL.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="hex_print_routines.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="I2CPositionEncoder.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="language.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="language_an.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="language_bg.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="language_ca.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="language_cn.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="language_cz.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="language_cz_utf8.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="language_da.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="language_de.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="language_el-gr.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="language_el.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="language_en.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="language_es.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="language_es_utf8.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="language_eu.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="language_fi.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="language_fr.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="language_fr_utf8.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="language_gl.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="language_hr.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="language_it.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="language_kana.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="language_kana_utf8.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="language_nl.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="language_pl-DOGM.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="language_pl-HD44780.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="language_pl.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="language_pt-br.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="language_pt-br_utf8.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="language_pt.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="language_pt_utf8.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="language_ru.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="language_sk_utf8.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="language_test.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="language_tr.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="language_uk.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="language_zh_CN.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="language_zh_TW.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="least_squares_fit.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="leds.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="macros.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="Marlin.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="MarlinConfig.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="MarlinSerial.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="MarlinSPI.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="Max7219_Debug_LEDs.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="mesh_bed_leveling.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="neopixel.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="nozzle.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="parser.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="pca9632.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="pins.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="pinsDebug.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="pinsDebug_list.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="pinsDebug_plus_70.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="pinsDebug_Teensyduino.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="pins_3DRAG.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="pins_5DPRINT.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="pins_ANET_10.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="pins_AZTEEG_X1.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="pins_AZTEEG_X3.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="pins_AZTEEG_X3_PRO.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="pins_BAM_DICE_DUE.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="pins_BQ_ZUM_MEGA_3D.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="pins_BRAINWAVE.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="pins_BRAINWAVE_PRO.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="pins_CHEAPTRONIC.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="pins_CHEAPTRONICv2.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="pins_CNCONTROLS_11.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="pins_CNCONTROLS_12.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="pins_EINSY_RAMBO.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="pins_EINSY_RETRO.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="pins_ELEFU_3.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="pins_FELIX2.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="pins_GEN3_MONOLITHIC.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="pins_GEN3_PLUS.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="pins_GEN6.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="pins_GEN6_DELUXE.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="pins_GEN7_12.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="pins_GEN7_13.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="pins_GEN7_14.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="pins_GEN7_CUSTOM.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="pins_GT2560_REV_A.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="pins_GT2560_REV_A_PLUS.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="pins_K8200.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="pins_K8400.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="pins_LEAPFROG.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="pins_MAKEBOARD_MINI.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="pins_MEGACONTROLLER.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="pins_MEGATRONICS.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="pins_MEGATRONICS_2.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="pins_MEGATRONICS_3.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="pins_MELZI.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="pins_MELZI_CREALITY.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="pins_MELZI_MAKR3D.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="pins_MELZI_MALYAN.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="pins_MELZI_TRONXY.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="pins_MIGHTYBOARD_REVE.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="pins_MINIRAMBO.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="pins_MINITRONICS.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="pins_MKS_BASE.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="pins_MKS_BASE_15.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="pins_MKS_BASE_HEROIC.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="pins_MKS_GEN_13.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="pins_MKS_GEN_L.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="pins_OMCA.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="pins_OMCA_A.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="pins_PRINTRBOARD.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="pins_PRINTRBOARD_REVF.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="pins_RAMBO.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="pins_RAMPS.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="pins_RAMPS_13.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="pins_RAMPS_ENDER_4.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="pins_RAMPS_OLD.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="pins_RAMPS_PLUS.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="pins_RESIN.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="pins_RIGIDBOARD.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="pins_RIGIDBOARD_V2.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="pins_RUMBA.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="pins_SAINSMART_2IN1.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="pins_SANGUINOLOLU_11.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="pins_SANGUINOLOLU_12.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="pins_SAV_MKI.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="pins_SCOOVO_X9H.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="pins_SETHI.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="pins_SILVER_GATE.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="pins_STB_11.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="pins_TEENSY2.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="pins_TEENSYLU.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="pins_TRIGORILLA_13.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="pins_TRIGORILLA_14.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="pins_ULTIMAIN_2.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="pins_ULTIMAKER.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="pins_ULTIMAKER_OLD.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="pins_ZRIB_V20.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="planner.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="planner_bezier.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="point_t.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="power.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="power_loss_recovery.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="printcounter.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="runout.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="SanityCheck.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="Sd2Card.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="SdBaseFile.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="SdFatConfig.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="SdFatStructs.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="SdFatUtil.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="SdFile.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="SdInfo.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="SdVolume.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="serial.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="servo.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="softspi.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="speed_lookuptable.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="status_screen_DOGM.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="status_screen_lite_ST7920.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="status_screen_lite_ST7920_class.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="status_screen_lite_ST7920_spi.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="stepper.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="stepper_dac.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="stepper_indirection.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="stopwatch.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="temperature.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="thermistornames.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="thermistortables.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="thermistortable_1.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="thermistortable_10.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="thermistortable_1010.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="thermistortable_1047.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="thermistortable_11.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="thermistortable_110.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="thermistortable_12.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="thermistortable_13.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="thermistortable_147.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="thermistortable_15.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="thermistortable_2.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="thermistortable_20.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="thermistortable_3.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="thermistortable_4.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="thermistortable_5.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="thermistortable_501.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="thermistortable_51.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="thermistortable_52.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="thermistortable_55.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="thermistortable_6.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="thermistortable_60.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="thermistortable_66.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="thermistortable_7.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="thermistortable_70.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="thermistortable_71.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="thermistortable_75.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="thermistortable_8.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="thermistortable_9.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="thermistortable_998.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="thermistortable_999.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="tmc_util.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="twibus.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="types.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="ubl.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="ultralcd.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="ultralcd_impl_DOGM.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="ultralcd_impl_HD44780.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="ultralcd_st7565_u8glib_VIKI.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="ultralcd_st7920_u8glib_rrd.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="utf_mapper.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="utility.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="vector_3.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="Version.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="watchdog.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="__vm\.Marlin.vsarduino.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="blinkm.cpp" />
+    <ClCompile Include="cardreader.cpp" />
+    <ClCompile Include="configuration_store.cpp" />
+    <ClCompile Include="dac_mcp4728.cpp" />
+    <ClCompile Include="digipot_mcp4018.cpp" />
+    <ClCompile Include="digipot_mcp4451.cpp" />
+    <ClCompile Include="emergency_parser.cpp" />
+    <ClCompile Include="endstops.cpp" />
+    <ClCompile Include="fwretract.cpp" />
+    <ClCompile Include="G26_Mesh_Validation_Tool.cpp" />
+    <ClCompile Include="hex_print_routines.cpp" />
+    <ClCompile Include="I2CPositionEncoder.cpp" />
+    <ClCompile Include="least_squares_fit.cpp" />
+    <ClCompile Include="leds.cpp" />
+    <ClCompile Include="M100_Free_Mem_Chk.cpp" />
+    <ClCompile Include="malyanlcd.cpp" />
+    <ClCompile Include="MarlinSerial.cpp" />
+    <ClCompile Include="Marlin_main.cpp" />
+    <ClCompile Include="Marlin_main_clean.cpp" />
+    <ClCompile Include="Max7219_Debug_LEDs.cpp" />
+    <ClCompile Include="mesh_bed_leveling.cpp" />
+    <ClCompile Include="neopixel.cpp" />
+    <ClCompile Include="nozzle.cpp" />
+    <ClCompile Include="parser.cpp" />
+    <ClCompile Include="pca9632.cpp" />
+    <ClCompile Include="planner.cpp" />
+    <ClCompile Include="planner_bezier.cpp" />
+    <ClCompile Include="planner_clean.cpp" />
+    <ClCompile Include="power.cpp" />
+    <ClCompile Include="power_loss_recovery.cpp" />
+    <ClCompile Include="printcounter.cpp" />
+    <ClCompile Include="runout.cpp" />
+    <ClCompile Include="Sd2Card.cpp" />
+    <ClCompile Include="SdBaseFile.cpp" />
+    <ClCompile Include="SdFatUtil.cpp" />
+    <ClCompile Include="SdFile.cpp" />
+    <ClCompile Include="SdVolume.cpp" />
+    <ClCompile Include="serial.cpp" />
+    <ClCompile Include="servo.cpp" />
+    <ClCompile Include="stepper.cpp" />
+    <ClCompile Include="stepper_clean.cpp" />
+    <ClCompile Include="stepper_dac.cpp" />
+    <ClCompile Include="stepper_indirection.cpp" />
+    <ClCompile Include="stopwatch.cpp" />
+    <ClCompile Include="temperature.cpp" />
+    <ClCompile Include="tmc_util.cpp" />
+    <ClCompile Include="twibus.cpp" />
+    <ClCompile Include="ubl.cpp" />
+    <ClCompile Include="ubl_G29.cpp" />
+    <ClCompile Include="ubl_motion.cpp" />
+    <ClCompile Include="ultralcd.cpp" />
+    <ClCompile Include="utility.cpp" />
+    <ClCompile Include="vector_3.cpp" />
+    <ClCompile Include="watchdog.cpp" />
+  </ItemGroup>
+  <PropertyGroup>
+    <DebuggerFlavor>VisualMicroDebugger</DebuggerFlavor>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+  <ProjectExtensions>
+    <VisualStudio>
+      <UserProperties custom_mega_atmega2560_vm.programmer_name="" config.Release.customdebug_mega_atmega2560_debugger_type="hwdebugger" config.Debug.customdebug_mega_atmega2560_debugger_type="none" custom_mega_atmega2560_vm.upload.useprogrammer="0" />
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>
