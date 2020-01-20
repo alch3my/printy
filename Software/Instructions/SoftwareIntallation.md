@@ -77,6 +77,7 @@ Figures S12-14. Slic3r Printer Setting
 
 
 Use the following starting code in "Slic3r Printer Setting":
+<code>
 G28 ; home all axes
 G91 ; relative position
 M155 S10 ; report temp every 10 seconds
@@ -96,7 +97,7 @@ M155 S10 ; report temp every 10 seconds
 ;G90 ; absolute position
 ;G4 P1000 ; dwell in milliseconds
 ; end initial lift code
-
+</code>
 
 
 
